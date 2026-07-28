@@ -1,3 +1,11 @@
-1. Set the api_key as an environment variable.
-  $env:OPENAI_API_KEY=""
-2. python test_client.py returns Hello Ada
+Set the API key as an environment variable:
+
+```powershell
+$env:OPENAI_API_KEY=""
+```
+
+Run the client:
+
+```powershell
+python test_client.py
+```
